@@ -61,6 +61,12 @@ build CMakeFiles/practice.dir/lambdaFunctions.cpp.obj: CXX_COMPILER__practice_un
   OBJECT_DIR = CMakeFiles\practice.dir
   OBJECT_FILE_DIR = CMakeFiles\practice.dir
 
+build CMakeFiles/practice.dir/threadsWithLambdaFunc.cpp.obj: CXX_COMPILER__practice_unscanned_Debug C$:/Users/VivoBook/Desktop/practice/threadsWithLambdaFunc.cpp || cmake_object_order_depends_target_practice
+  DEP_FILE = CMakeFiles\practice.dir\threadsWithLambdaFunc.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\practice.dir
+  OBJECT_FILE_DIR = CMakeFiles\practice.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target practice
@@ -69,7 +75,7 @@ build CMakeFiles/practice.dir/lambdaFunctions.cpp.obj: CXX_COMPILER__practice_un
 #############################################
 # Link the executable practice.exe
 
-build practice.exe: CXX_EXECUTABLE_LINKER__practice_Debug CMakeFiles/practice.dir/main.cpp.obj CMakeFiles/practice.dir/lambdaFunctions.cpp.obj
+build practice.exe: CXX_EXECUTABLE_LINKER__practice_Debug CMakeFiles/practice.dir/main.cpp.obj CMakeFiles/practice.dir/lambdaFunctions.cpp.obj CMakeFiles/practice.dir/threadsWithLambdaFunc.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\practice.dir

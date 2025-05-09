@@ -1,7 +1,4 @@
 # ninja log v6
-1	438	7685133955175920	CMakeFiles/practice.dir/main.cpp.obj	5f631a6963a2404b
-52	1476	7685133955683296	CMakeFiles/practice.dir/lambdaFunctions.cpp.obj	4d796c7612a0796b
-1478	2367	7685133969946885	practice.exe	5d2da0afc8b29133
-9	959	7685135582139387	CMakeFiles/practice.dir/main.cpp.obj	5f631a6963a2404b
 6	2327	7685136987499860	CMakeFiles/practice.dir/main.cpp.obj	5f631a6963a2404b
 55	2548	7685136987990481	CMakeFiles/practice.dir/lambdaFunctions.cpp.obj	4d796c7612a0796b
+1478	2367	7685133969946885	practice.exe	5d2da0afc8b29133
