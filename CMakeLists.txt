@@ -5,4 +5,5 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_executable(practice main.cpp
         lambdaFunctions.cpp
-        threadsWithLambdaFunc.cpp)
+        threadsWithLambdaFunc.cpp
+        WriterReaderMutex.cpp)
