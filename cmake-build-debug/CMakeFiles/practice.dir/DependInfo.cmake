@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/VivoBook/Desktop/practice/WriterReaderMutex.cpp" "CMakeFiles/practice.dir/WriterReaderMutex.cpp.obj" "gcc" "CMakeFiles/practice.dir/WriterReaderMutex.cpp.obj.d"
+  "C:/Users/VivoBook/Desktop/practice/dataRaceExample.cpp" "CMakeFiles/practice.dir/dataRaceExample.cpp.obj" "gcc" "CMakeFiles/practice.dir/dataRaceExample.cpp.obj.d"
   "C:/Users/VivoBook/Desktop/practice/lambdaFunctions.cpp" "CMakeFiles/practice.dir/lambdaFunctions.cpp.obj" "gcc" "CMakeFiles/practice.dir/lambdaFunctions.cpp.obj.d"
   "C:/Users/VivoBook/Desktop/practice/main.cpp" "CMakeFiles/practice.dir/main.cpp.obj" "gcc" "CMakeFiles/practice.dir/main.cpp.obj.d"
   "C:/Users/VivoBook/Desktop/practice/threadsWithLambdaFunc.cpp" "CMakeFiles/practice.dir/threadsWithLambdaFunc.cpp.obj" "gcc" "CMakeFiles/practice.dir/threadsWithLambdaFunc.cpp.obj.d"

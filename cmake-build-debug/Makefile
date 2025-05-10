@@ -152,6 +152,30 @@ WriterReaderMutex.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice.dir\build.make CMakeFiles/practice.dir/WriterReaderMutex.cpp.s
 .PHONY : WriterReaderMutex.cpp.s
 
+dataRaceExample.obj: dataRaceExample.cpp.obj
+.PHONY : dataRaceExample.obj
+
+# target to build an object file
+dataRaceExample.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice.dir\build.make CMakeFiles/practice.dir/dataRaceExample.cpp.obj
+.PHONY : dataRaceExample.cpp.obj
+
+dataRaceExample.i: dataRaceExample.cpp.i
+.PHONY : dataRaceExample.i
+
+# target to preprocess a source file
+dataRaceExample.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice.dir\build.make CMakeFiles/practice.dir/dataRaceExample.cpp.i
+.PHONY : dataRaceExample.cpp.i
+
+dataRaceExample.s: dataRaceExample.cpp.s
+.PHONY : dataRaceExample.s
+
+# target to generate assembly for a file
+dataRaceExample.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice.dir\build.make CMakeFiles/practice.dir/dataRaceExample.cpp.s
+.PHONY : dataRaceExample.cpp.s
+
 lambdaFunctions.obj: lambdaFunctions.cpp.obj
 .PHONY : lambdaFunctions.obj
 
@@ -236,6 +260,9 @@ help:
 	@echo ... WriterReaderMutex.obj
 	@echo ... WriterReaderMutex.i
 	@echo ... WriterReaderMutex.s
+	@echo ... dataRaceExample.obj
+	@echo ... dataRaceExample.i
+	@echo ... dataRaceExample.s
 	@echo ... lambdaFunctions.obj
 	@echo ... lambdaFunctions.i
 	@echo ... lambdaFunctions.s
